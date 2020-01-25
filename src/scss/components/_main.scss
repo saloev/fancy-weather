@@ -1,0 +1,12 @@
+.main {
+  display: grid;
+  grid-template-columns: auto 40vw;
+  grid-column-gap: 60px;
+  justify-content: space-between;
+  padding-top: 50px;
+
+  @media (max-width: $md) {
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+}

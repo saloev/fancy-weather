@@ -1,0 +1,22 @@
+.location {
+  overflow-x: hidden;
+
+  &-info {
+    padding-top: 10px;
+
+    text-align: right;
+    color: #fff;
+  }
+}
+
+#map {
+  min-height: 80%;
+  width: 100%;
+  overflow: hidden;
+
+  border-radius: 15px;
+
+  @media (max-width: $md) {
+    min-height: 320px;
+  }
+}

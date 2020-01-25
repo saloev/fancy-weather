@@ -1,0 +1,10 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $md) {
+    display: grid;
+    grid-gap: 10px;
+  }
+}

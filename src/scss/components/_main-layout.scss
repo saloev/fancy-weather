@@ -1,0 +1,19 @@
+.main-layout {
+  min-height: 100vh;
+  padding: 20px 50px 70px;
+
+  // background: red;
+  background-position: center;
+  background-size: cover;
+  background-image: var(--js-background-image-url),
+    linear-gradient(
+      180deg,
+      rgba(8, 15, 26, 0.59) 0%,
+      rgba(17, 17, 46, 0.46) 100%
+    );
+  background-blend-mode: multiply;
+
+  @media (max-width: $md) {
+    padding: 10px;
+  }
+}

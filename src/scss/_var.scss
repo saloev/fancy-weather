@@ -1,0 +1,21 @@
+$primary: rgba(0, 0, 0, 0.87);
+$primary--light: rgba(0, 0, 0, 0.541327);
+
+$main-color: #fff;
+
+$panel-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24),
+  0px 0px 4px rgba(0, 0, 0, 0.12);
+
+$loader-bg-color: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+$api-progress-bg-color: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+$api-progress-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+  5px 5px 0px 23px rgba(0, 0, 0, 0);
+
+// brakpoints
+$md: 980px;
+
+$assets: "~assets";
+
+:root {
+  --js-background-image-url: url("https://images.unsplash.com/photo-1563574326223-0077b84f438f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80");
+}

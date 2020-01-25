@@ -1,0 +1,7 @@
+.control-block {
+  display: flex;
+
+  &__item:nth-child(2) {
+    margin: 0 5px;
+  }
+}
